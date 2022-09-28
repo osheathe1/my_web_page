@@ -28,8 +28,8 @@ main{
 text-align: left;
 justify-content: space-between;
 }
-
-header div{
+/* Name edit*/
+h1 {
 background-color: lightblue;
 width: 25%;
 text-align: right;
@@ -52,7 +52,9 @@ font-size: 25px;
 }
 
 #top{
-background-image: url();
+  background-image: url("de6fd598d1e63240d7b1a53193c8714e.jpeg");
+  height: 100px;
+
 }
 
 /* About,Work and Contact position middle page*/
@@ -103,19 +105,12 @@ img{
   text-align: center;
   border-style: solid;
   border-width: 1px;
-  /*display: flex;
-  justify-content: space-between;*/
+  display: flex;
+  justify-content: space-between;
  
 }
-
-
-
-
-
-
-
 /*Surf report, LED Wall, Calculator*/
-/*
+
 .work{
 display: flex;
 flex-wrap: wrap;
@@ -160,5 +155,9 @@ flex-direction: row;
   padding: 20px;
   height: 200px;
   border: 1px solid black;
+  display: inline-flex;
 }
-*/
+
+.feature-project {
+width: 50%;
+}
