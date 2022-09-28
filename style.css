@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 1px;
+  box-sizing: border-box;
+
+}
+/* The Tilte */
+ul{
+    top: left;
+    display: flex;
+    font-family: "Helvetica", sans-serif;
+    font-size: 30px;
+    background-color: gray;
+    color: black;
+}
+
+/* Grey bar at the top of the page */
+header{
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: grey;
+
+}
+
+main{
+text-align: left;
+justify-content: space-between;
+}
+
+header div{
+background-color: lightblue;
+width: 25%;
+text-align: right;
+
+}
+
+/* About me, Work, Contact Me, Resume top right */
+li{
+margin: 10px;
+
+}
+
+
+/* Cool Subtitle Here! */
+.cool{
+text-align: right;
+/*float: right;*/
+font-size: 25px;
+
+}
+
+#top{
+background-image: url();
+}
+
+/* About,Work and Contact position middle page*/
+.row{
+    font-size: 50px;
+    margin-left: 0%;
+    text-align: left;
+}
+#work{
+display: grid;
+
+}
+
+
+/*The blue border at the op behind Jamionn */
+  h1{
+    background-color: lightblue;
+    font-size: 50px;  
+  }
+  
+  .verticalLine{
+ 
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  align-items: stretch;
+  justify-content: space-between;
+  text-align: right;
+  }
+
+  .verticalLine > h2{
+  flex: 0 0 20%;
+  text-align: right;
+  border-right: 4px solid black;
+  padding-right:15px;
+  }
+
+p {
+font-size: 15px;
+display: inline;
+}
+
+img{
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  /*display: flex;
+  justify-content: space-between;*/
+ 
+}
+
+
+
+
+
+
+
+/*Surf report, LED Wall, Calculator*/
+/*
+.work{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.run-img{
+  background-color: #fff;
+  width: 500%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+  
+}
+
+.pu-img{
+  background-color: #fff;
+  width: 500%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.cal-img{
+  background-color: #fff;
+  width: 500%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+}
+.led-img{
+  background-color: #fff;
+  width: 500%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+} 
+
+.sur-img{
+  background-color: #fff;
+  width: 500%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+}
+*/
